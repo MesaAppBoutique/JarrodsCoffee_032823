@@ -22,6 +22,7 @@
 		A6A794642681380300D97421 /* EventsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A794632681380300D97421 /* EventsViewController.swift */; };
 		D31D761827D7BF1E00350EAF /* EventTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31D761727D7BF1E00350EAF /* EventTableViewController.swift */; };
 		D34C58482742D8D200AADF0E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D34C58472742D8D200AADF0E /* MapKit.framework */; };
+		D3888F4329DF3BE200558F62 /* EventSafariViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3888F4229DF3BE200558F62 /* EventSafariViewController.swift */; };
 		D3B8820E263A1F4B00BC294C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B8820D263A1F4B00BC294C /* AppDelegate.swift */; };
 		D3B88210263A1F4B00BC294C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B8820F263A1F4B00BC294C /* SceneDelegate.swift */; };
 		D3B88212263A1F4B00BC294C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B88211263A1F4B00BC294C /* HomeViewController.swift */; };
@@ -47,6 +48,7 @@
 		A6A794632681380300D97421 /* EventsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsViewController.swift; sourceTree = "<group>"; };
 		D31D761727D7BF1E00350EAF /* EventTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventTableViewController.swift; sourceTree = SOURCE_ROOT; };
 		D34C58472742D8D200AADF0E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		D3888F4229DF3BE200558F62 /* EventSafariViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventSafariViewController.swift; sourceTree = "<group>"; };
 		D3B8820A263A1F4B00BC294C /* JarrodsCoffee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JarrodsCoffee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3B8820D263A1F4B00BC294C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D3B8820F263A1F4B00BC294C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 				D3B8820F263A1F4B00BC294C /* SceneDelegate.swift */,
 				D3B88211263A1F4B00BC294C /* HomeViewController.swift */,
 				D3B88213263A1F4B00BC294C /* Main.storyboard */,
+				D3888F4229DF3BE200558F62 /* EventSafariViewController.swift */,
 				D3D6BAD12741C5670042A455 /* MapViewController.swift */,
 				D3B88216263A1F4B00BC294C /* Assets.xcassets */,
 				D3B88218263A1F4B00BC294C /* LaunchScreen.storyboard */,
@@ -196,6 +199,7 @@
 			files = (
 				D3B88212263A1F4B00BC294C /* HomeViewController.swift in Sources */,
 				D3B8820E263A1F4B00BC294C /* AppDelegate.swift in Sources */,
+				D3888F4329DF3BE200558F62 /* EventSafariViewController.swift in Sources */,
 				A6A79462268137F000D97421 /* ContactUsViewController.swift in Sources */,
 				A6162AF5280F384A009B7F39 /* OrderConfirmationViewController.swift in Sources */,
 				A6162AE7280F3756009B7F39 /* UITableViewControllerExtension.swift in Sources */,
