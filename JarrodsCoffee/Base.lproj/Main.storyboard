@@ -46,7 +46,7 @@
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
                                                 <connections>
-                                                    <segue destination="5bB-1c-aL9" kind="show" id="wmt-zj-Mal"/>
+                                                    <segue destination="5bB-1c-aL9" kind="showDetail" id="hYv-uX-AdO"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="juk-36-SJF">
@@ -66,7 +66,7 @@
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
                                                 <connections>
-                                                    <segue destination="4t9-bw-Foh" kind="show" id="CII-Td-a1x"/>
+                                                    <segue destination="4t9-bw-Foh" kind="showDetail" id="Hev-nt-93J"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YUc-c9-5Z3">
@@ -248,10 +248,11 @@
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6nf-OU-4Fw">
-                                                        <rect key="frame" x="14.5" y="57.5" width="67" height="20"/>
+                                                        <rect key="frame" x="10.5" y="57.5" width="75" height="20"/>
                                                         <color key="backgroundColor" red="0.72549019607843135" green="0.0039215686274509803" blue="0.0039215686274509803" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="20" id="HdH-zk-PQc"/>
+                                                            <constraint firstAttribute="width" constant="75" id="UhU-29-Ssb"/>
                                                         </constraints>
                                                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
                                                         <state key="normal" title="GO TO MAP">
@@ -274,10 +275,11 @@
                                         </constraints>
                                     </stackView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="55V-z4-R5S">
-                                        <rect key="frame" x="116.5" y="760" width="181" height="30"/>
+                                        <rect key="frame" x="109.5" y="760" width="195" height="30"/>
                                         <color key="backgroundColor" red="0.72549019607843135" green="0.0039215686274509803" blue="0.0039215686274509803" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="30" id="1QL-OK-xz2"/>
+                                            <constraint firstAttribute="width" constant="195" id="yzN-KA-24I"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="22"/>
                                         <state key="normal" title=" 📞(480) 822-7146">
@@ -309,7 +311,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2213" y="-1382"/>
+            <point key="canvasLocation" x="-3416" y="-1202"/>
         </scene>
         <!--Map-->
         <scene sceneID="gH7-6g-run">
@@ -342,7 +344,7 @@
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
                                                 <connections>
-                                                    <segue destination="5bB-1c-aL9" kind="show" id="YeI-Tf-tgM"/>
+                                                    <segue destination="5bB-1c-aL9" kind="showDetail" id="Ti7-Vk-m4C"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bBR-7n-Kux">
@@ -459,7 +461,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yC9-IK-0j1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-486.95652173913049" y="370.98214285714283"/>
+            <point key="canvasLocation" x="-3129" y="212"/>
         </scene>
         <!--Contact Us-->
         <scene sceneID="DJF-eq-Pam">
@@ -513,7 +515,7 @@
                                                             </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
                                                         <connections>
-                                                            <segue destination="5bB-1c-aL9" kind="show" id="zVC-0R-HvG"/>
+                                                            <segue destination="5bB-1c-aL9" kind="showDetail" id="enG-7i-TMl"/>
                                                         </connections>
                                                     </button>
                                                     <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bCI-eI-2Vw">
@@ -624,10 +626,11 @@
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hct-Qp-2zK">
-                                                        <rect key="frame" x="14.5" y="57.5" width="67" height="20"/>
+                                                        <rect key="frame" x="10.5" y="57.5" width="75" height="20"/>
                                                         <color key="backgroundColor" red="0.72549019609999998" green="0.0039215686269999999" blue="0.0039215686269999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="20" id="M97-VM-nj8"/>
+                                                            <constraint firstAttribute="width" constant="75" id="RlI-e7-f33"/>
                                                         </constraints>
                                                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="12"/>
                                                         <state key="normal" title="GO TO MAP">
@@ -650,11 +653,14 @@
                                         </constraints>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="39" translatesAutoresizingMaskIntoConstraints="NO" id="9IX-kR-PFj">
-                                        <rect key="frame" x="56.5" y="557" width="301" height="30"/>
+                                        <rect key="frame" x="40" y="557" width="334" height="30"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DxX-fm-ckB">
-                                                <rect key="frame" x="0.0" y="0.0" width="95" height="30"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="100" height="30"/>
                                                 <color key="backgroundColor" red="0.72312837839999999" green="0.0071950638670000002" blue="0.0038075973279999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="100" id="nPm-f2-FYT"/>
+                                                </constraints>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="21"/>
                                                 <state key="normal" title="✉️ EMAIL">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -669,10 +675,11 @@
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LQC-9G-Kcm">
-                                                <rect key="frame" x="134" y="0.0" width="167" height="30"/>
+                                                <rect key="frame" x="139" y="0.0" width="195" height="30"/>
                                                 <color key="backgroundColor" red="0.72549019609999998" green="0.0039215686269999999" blue="0.0039215686269999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="30" id="HSC-Xk-fNG"/>
+                                                    <constraint firstAttribute="width" constant="195" id="UUM-NM-95J"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="21"/>
                                                 <state key="normal" title="📞(480) 822-7146">
@@ -789,7 +796,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c3X-jg-YNH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1284" y="435"/>
+            <point key="canvasLocation" x="-3417" y="-477"/>
         </scene>
         <!--Menu-->
         <scene sceneID="NLu-7O-R3s">
@@ -851,7 +858,7 @@
                                                 </userDefinedRuntimeAttribute>
                                             </userDefinedRuntimeAttributes>
                                             <connections>
-                                                <segue destination="4t9-bw-Foh" kind="show" id="YOw-oi-TRN"/>
+                                                <segue destination="4t9-bw-Foh" kind="showDetail" id="K3E-aZ-NK1"/>
                                             </connections>
                                         </button>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VCv-mT-yxK">
@@ -914,7 +921,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rbX-t0-Jsp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1656.521739130435" y="-1106.25"/>
+            <point key="canvasLocation" x="-487" y="-1945"/>
         </scene>
         <!--Menu Table View Controller-->
         <scene sceneID="WHY-GP-qN8">
@@ -961,7 +968,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bcW-ro-3wg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2619" y="-607"/>
+            <point key="canvasLocation" x="587" y="-1959"/>
         </scene>
         <!--Your Order-->
         <scene sceneID="we3-TN-SZA">
@@ -1020,7 +1027,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HzT-VC-dHU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1703" y="104"/>
+            <point key="canvasLocation" x="-312" y="-1238"/>
         </scene>
         <!--Order Confirmation View Controller-->
         <scene sceneID="vqg-C9-ezr">
@@ -1061,7 +1068,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wYs-fp-EqP" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <exit id="EA7-EF-aHT" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="2619" y="110"/>
+            <point key="canvasLocation" x="638" y="-1238"/>
         </scene>
         <!--Your Order-->
         <scene sceneID="urS-Wd-ADM">
@@ -1084,7 +1091,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NHz-Eh-xUb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="723" y="-29"/>
+            <point key="canvasLocation" x="-1322" y="-1237"/>
         </scene>
         <!--Menu-->
         <scene sceneID="oCI-4c-aA9">
@@ -1109,7 +1116,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xc3-qh-t5c" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="652" y="-1064"/>
+            <point key="canvasLocation" x="-1417" y="-1944"/>
         </scene>
         <!--Event Intro Veiw Controller-->
         <scene sceneID="vP8-xk-uez">
@@ -1165,7 +1172,7 @@
                                                     </userDefinedRuntimeAttribute>
                                                 </userDefinedRuntimeAttributes>
                                                 <connections>
-                                                    <segue destination="5bB-1c-aL9" kind="show" id="Nwg-fC-CbX"/>
+                                                    <segue destination="5bB-1c-aL9" kind="showDetail" id="5Gu-dI-STN"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ihN-Jh-Bpq">
@@ -1293,7 +1300,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="u31-GK-qqE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-604.34782608695662" y="-1838.1696428571427"/>
+            <point key="canvasLocation" x="-2272" y="-575"/>
         </scene>
         <!--Event Safari View Controller-->
         <scene sceneID="S9o-U0-y86">
@@ -1312,7 +1319,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DnL-Nj-qMs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="271" y="-1833"/>
+            <point key="canvasLocation" x="-1212" y="-575"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="FNK-bB-fNw">
@@ -1332,7 +1339,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="53x-Ci-OHA" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-258" y="-1156"/>
+            <point key="canvasLocation" x="-2272" y="-1976"/>
         </scene>
         <!--Menu Item Detail View Controller-->
         <scene sceneID="eza-MA-ds9">
@@ -1415,13 +1422,13 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FaY-MA-aXQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3470" y="-573"/>
+            <point key="canvasLocation" x="1645" y="-1959"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="Nwg-fC-CbX"/>
+        <segue reference="Ti7-Vk-m4C"/>
         <segue reference="WCm-xd-D3R"/>
-        <segue reference="XUS-Lq-Vgf"/>
+        <segue reference="cpJ-VA-aRN"/>
         <segue reference="Uad-JJ-5kI"/>
         <segue reference="CO0-Ix-oHL"/>
     </inferredMetricsTieBreakers>
